@@ -22,6 +22,16 @@ A short summary (customer count and total sales) appears after a successful load
 
 The widget appears only on the **Dashboard** (location: `dashboard.widget`). Opening `widget.html` in a normal browser tab will not load live data.
 
+### Screenshots
+
+**Table view**
+
+![Top 10 Customers by Revenue — table view](docs/images/table-view.png)
+
+**Chart view**
+
+![Top 10 Customers by Revenue — chart view](docs/images/chart-view.png)
+
 ## How to pack, upload, and view the widget
 
 ### 1. Prerequisites
@@ -38,7 +48,7 @@ npm install
 npm run build
 ```
 
-`npm run build` writes the files Zoho Books loads into the `app/` folder. Always run this after you change anything under `src/`.
+Always run `npm run build` after you change anything under `src/`.
 
 ### 3. Create the connection (required before the widget can load data)
 
